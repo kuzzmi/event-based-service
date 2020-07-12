@@ -1,0 +1,17 @@
+{
+  "name": "event-based-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.1.0",
+    "pubsub-js": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

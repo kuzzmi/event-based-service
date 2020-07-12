@@ -1,0 +1,10 @@
+// Event topics
+exports.EVENT_OBJECT_INSERTED = Symbol("INSERTED_OBJECT");
+exports.EVENT_OBJECT_UPDATED = Symbol("UPDATED_OBJECT");
+exports.EVENT_OBJECT_DELETED = Symbol("DELETED_OBJECT");
+exports.EVENT_PAYMENT_SUCCEEDED = Symbol("PAYMENT_SUCCEEDED");
+
+// Command topics
+exports.COMMAND_SEND_EMAIL = Symbol("SEND_EMAIL");
+exports.COMMAND_SEND_SMS = Symbol("SEND_SMS");
+exports.COMMAND_INIT_PAYMENT = Symbol("PAYMENT_INIT");
